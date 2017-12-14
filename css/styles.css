@@ -1,0 +1,101 @@
+/*font-family: 'Source Code Pro', monospace;*/
+/*font-family: 'Orbitron', sans-serif;*/
+/*font-family: 'PT Mono', monospace;*/
+/*font-family: 'Electrolize', sans-serif;*/
+/*font-family: 'Libre Baskerville', serif;*/
+
+
+.navbar {
+  font-family: 'Libre Baskerville', serif;
+  margin-bottom: 0;
+  background-color: #BFCACB;
+}
+
+.masterCompBody {
+  color: green;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  text-shadow: -0.05em -0.05em 2px green;
+}
+
+.navbar-right a {
+  color: black;
+}
+
+.navbar-right a:hover {
+  background-color: #7f9b92;
+  border-radius: 4px;
+  border-color: none;
+  border-width: 0px;
+}
+
+
+
+
+
+
+/*
+Blue-Green Theme Adobe Color CC
+blue: #6EF3FF
+green: #64E8B8
+green: #7BFF94
+green: #8BDA64
+yellow: #E7FF35
+*/
+
+
+#title-bar {
+  width: 100%;
+  height: 600px;
+  text-align: center;
+  background-image: url('../assets/bg/hills1.jpg');
+  background-size: cover;
+}
+
+.logo {
+  padding-top: 230px;
+}
+
+#title-name {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 40px;
+}
+#title-tag {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 40px;
+}
+
+.img-container {
+  display: block;
+  height: 600px;
+}
+#panel-1 {
+  background-image: url('../assets/bg/mtn3.jpg');
+  height: 100%;
+  background-size: cover;
+  background-color: #6EF3FF;
+}
+#panel-2 {
+  background-image: url('../assets/bg/mtn1.jpg');
+  height: 100%;
+  background-size: cover;
+  background-color: #64E8B8;
+}
+#panel-3 {
+  background-image: url('../assets/bg/mtn2.jpg');
+  height: 100%;
+  background-size: cover;
+  background-color: #8BDA64;
+}
+#panel-4 {
+  background-image: url('../assets/bg/gondola1.jpg');
+  height: 100%;
+  background-size: cover;
+  background-color: #E7FF35;
+}
