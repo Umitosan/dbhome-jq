@@ -1,0 +1,23 @@
+{
+  "name": "dbhome-jq",
+  "version": "1.0.0",
+  "description": "* make sure Node.js is installed\r * clone the repo, then navigate to the project directory\r ```\r $ git clone https://github.com/Umitosan/dbhome-jq.git\r ```\r * install dependencies\r ```\r $ npm install\r ```\r ## start the server\r * The npm start script is configured to start a local server and open it here http://localhost:1234\r * simply run the following command and your browser should open automatically\r ```\r $ npm start\r ```\r ## dependencies\r * Node\r * jquery\r * http-server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -a localhost -p 1234 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umitosan/dbhome-jq.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umitosan/dbhome-jq/issues"
+  },
+  "homepage": "https://github.com/Umitosan/dbhome-jq#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
