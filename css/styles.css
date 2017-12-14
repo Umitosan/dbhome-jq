@@ -5,16 +5,18 @@
 /*font-family: 'Libre Baskerville', serif;*/
 
 
+#scroll1:hover{
+  outline-color: red;
+  outline-style: solid;
+  outline-width: 1px;
+}
+
+/* NAV NAV NAV */
 .navbar {
   font-family: 'Libre Baskerville', serif;
   margin-bottom: 0;
   background-color: #BFCACB;
 }
-
-.masterCompBody {
-  color: green;
-}
-
 .navbar-brand {
   font-size: 2em;
   color: black;
@@ -23,18 +25,15 @@
   letter-spacing: 0.03em;
   text-shadow: -0.05em -0.05em 2px green;
 }
-
 .navbar-right a {
   color: black;
 }
-
 .navbar-right a:hover {
   background-color: #7f9b92;
   border-radius: 4px;
   border-color: none;
   border-width: 0px;
 }
-
 
 
 
@@ -49,6 +48,9 @@ green: #8BDA64
 yellow: #E7FF35
 */
 
+.masterCompBody {
+  color: green;
+}
 
 #title-bar {
   width: 100%;
