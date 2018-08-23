@@ -5,6 +5,32 @@
 /*font-family: 'Libre Baskerville', serif;*/
 
 
+.opaque {
+  /* Theoretically for IE 8 & 9 (more valid) */
+  /* ...but not required as filter works too */
+  /* should come BEFORE filter */
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; // IE8
+
+  /* This works in IE 8 & 9 too */
+  /* ... but also 5, 6, 7 */
+  filter: alpha(opacity=50); // IE 5-7
+
+  /* Modern Browsers */
+  opacity: 0.5;
+}
+
+.img-container:hover {
+  opacity: 0.5;
+}
+
+#testing {
+  z-index: -1;
+  position: absolute;
+  font-size: 50px;
+  color: RED;
+}
+
+
 #scroll1:hover{
   outline-color: red;
   outline-style: solid;

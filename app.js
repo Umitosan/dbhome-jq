@@ -6,7 +6,7 @@ $.fn.scrollView = function() {
       scrollTop: $(this).offset().top
     }, 1000);
   });
-}
+};
 
 
 
@@ -25,4 +25,6 @@ $(document).ready(function() {
     $('#panel-3').scrollView();
   });
 
-})
+
+
+});
